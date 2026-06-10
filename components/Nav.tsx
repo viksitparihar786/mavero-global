@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 const SIMPLE_LINKS = [
   { label: 'About', id: 'about' },
   { label: 'Products', id: 'products' },
-  { label: 'Insights', id: 'insights' },
 ];
 
 const SERVICES_DROPDOWN = [
@@ -90,23 +89,43 @@ export default function Nav() {
           </span>
         </div>
 
-        {/* Desktop nav */}
-        <div className="hidden md:flex items-center" style={{ gap: '2rem' }}>
-          {/* Simple links */}
-          {SIMPLE_LINKS.map(({ label, id }) => (
-            <button
-              key={id}
-              onClick={() => scrollTo(id)}
-              style={navLinkStyle}
-              onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--ivory)')}
-              onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245,242,236,0.7)')}
-            >
-              {label}
-            </button>
-          ))}
+{/* Desktop nav */}
+<div className="hidden md:flex items-center" style={{ gap: '2rem' }}>
+  {/* Simple links */}
+  {SIMPLE_LINKS.map(({ label, id }) => (
+    <button
+      key={id}
+      onClick={() => scrollTo(id)}
+      style={navLinkStyle}
+      onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--ivory)')}
+      onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245,242,236,0.7)')}
+    >
+      {label}
+    </button>
+  ))}
 
-          {/* Services dropdown */}
-          <div className="nav-item">
+  {/* Insights Link */}
+  <a
+    href="/insights"
+    style={{
+      ...navLinkStyle,
+      textDecoration: 'none',
+      display: 'flex',
+      alignItems: 'center',
+    }}
+    onMouseEnter={(e) =>
+      (e.currentTarget.style.color = 'var(--ivory)')
+    }
+    onMouseLeave={(e) =>
+      (e.currentTarget.style.color = 'rgba(245,242,236,0.7)')
+    }
+   >
+    Insights
+  </a>
+
+  {/* Services dropdown */}
+  <div className="nav-item">
+
             <button
               onClick={() => scrollTo('sourcing-process')}
               style={navLinkStyle}
