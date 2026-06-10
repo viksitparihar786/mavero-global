@@ -32,20 +32,42 @@ export default function Hero() {
     <section className="hero-v2" id="hero">
       {/* Left panel */}
       <div className="hero-left">
-        <p className="hero-eyebrow">TIMELESS CRAFT,<br />Global Living.</p>
+        <p
+  className="hero-eyebrow"
+  style={{
+    fontFamily: "var(--font-display)",
+    fontWeight: 500,
+    letterSpacing: "0.08em",
+    lineHeight: 1.4,
+    textTransform: "uppercase",
+  }}
+>
+  TIMELESS CRAFT,
+  <br />
+  Global Living.
+</p>
         <h1 className="hero-h1">
           Mavero
           <br />
           Global
         </h1>
         <div className="hero-rule" />
-        <p className="hero-sub">
-          We source and supply premium home, garden and lifestyle
-          <br />
-          products from India. Handcrafted with care,
-          <br />
-          Delivered worldwide.
-        </p>
+        <p
+  className="hero-sub"
+  style={{
+    fontFamily: "var(--font-body)",
+    fontSize: "1.05rem",
+    lineHeight: 1.9,
+    color: "#5b5b5b",
+    fontWeight: 400,
+  }}
+>
+  We source and supply premium home, garden and lifestyle
+  <br />
+  products from India. Handcrafted with care,
+  <br />
+  Delivered worldwide.
+</p>
         <a href="#products" className="hero-cta">
           Explore Collection
         </a>
