@@ -10,6 +10,8 @@ export default function InsightsPage() {
 
         "Explore how international buyers identify reliable suppliers, manage product development and streamline sourcing operations across India.",
 
+      link: "/insights/how-global-buyers-source-products-from-india",
+
     },
 
     {
@@ -21,6 +23,8 @@ export default function InsightsPage() {
       description:
 
         "Understand why experienced importers often choose FOB terms for greater control, transparency and flexibility in international logistics.",
+
+      link: "#",
 
     },
 
@@ -34,6 +38,8 @@ export default function InsightsPage() {
 
         "Discover why buyers around the world source diverse product categories from Moradabad, India's renowned manufacturing and export hub.",
 
+      link: "#",
+
     },
 
     {
@@ -46,6 +52,8 @@ export default function InsightsPage() {
 
         "Learn how sourcing partners simplify supplier management, improve coordination and provide access to a broader network of trusted manufacturers.",
 
+      link: "#",
+
     },
 
     {
@@ -57,6 +65,8 @@ export default function InsightsPage() {
       description:
 
         "Understand how Mavero Global supports international buyers through supplier identification, product development, quality control and export coordination.",
+
+      link: "#",
 
     },
 
@@ -276,7 +286,7 @@ export default function InsightsPage() {
 
               <a
 
-                href="#"
+                href={blog.link || "#"}
 
                 style={{
 
