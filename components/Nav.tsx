@@ -243,7 +243,26 @@ export default function Nav() {
               {label}
             </button>
           ))}
-
+<a
+  href="/insights"
+  onClick={() => setOpen(false)}
+  className="font-body text-left"
+  style={{
+    background: 'none',
+    border: 'none',
+    borderBottom: '1px solid rgba(184,148,74,0.08)',
+    cursor: 'pointer',
+    fontSize: '1rem',
+    color: 'rgba(245,242,236,0.8)',
+    padding: '1rem 0',
+    letterSpacing: '0.02em',
+    minHeight: 44,
+    textDecoration: 'none',
+    display: 'block',
+  }}
+>
+  Insights
+</a>
           {/* Services accordion */}
           <div style={{ borderBottom: '1px solid rgba(184,148,74,0.08)' }}>
             <button
