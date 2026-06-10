@@ -1,4 +1,3 @@
-```tsx
 export default function InsightsPage() {
   const blogs = [
     {
@@ -61,8 +60,8 @@ export default function InsightsPage() {
             maxWidth: "750px",
           }}
         >
-          Industry insights, sourcing guides and practical knowledge
-          for global buyers looking to source quality products from India.
+          Industry insights, sourcing guides and practical knowledge for
+          global buyers looking to source quality products from India.
         </p>
 
         <div
@@ -127,4 +126,3 @@ export default function InsightsPage() {
     </main>
   );
 }
-```
