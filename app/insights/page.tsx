@@ -24,7 +24,7 @@ export default function InsightsPage() {
 
         "Understand why experienced importers often choose FOB terms for greater control, transparency and flexibility in international logistics.",
 
-      link: "#",
+      link: "/insights/why-many-international-buyers-prefer-fob-terms-when-buying-from-india",
 
     },
 
@@ -38,7 +38,7 @@ export default function InsightsPage() {
 
         "Discover why buyers around the world source diverse product categories from Moradabad, India's renowned manufacturing and export hub.",
 
-      link: "#",
+      link: "/insights/why-moradabad-is-indias-leading-export-hub-for-home-decor-garden-furnishings-lifestyle-and-fireside-products",
 
     },
 
@@ -52,7 +52,7 @@ export default function InsightsPage() {
 
         "Learn how sourcing partners simplify supplier management, improve coordination and provide access to a broader network of trusted manufacturers.",
 
-      link: "#",
+      link: "/insights/why-many-international-buyers-choose-sourcing-partners-in-india-instead-of-working-directly-with-factories",
 
     },
 
@@ -66,7 +66,7 @@ export default function InsightsPage() {
 
         "Understand how Mavero Global supports international buyers through supplier identification, product development, quality control and export coordination.",
 
-      link: "#",
+      link: "/insights/how-mavero-global-helps-overseas-buyers-source-from-india",
 
     },
 
@@ -284,9 +284,9 @@ export default function InsightsPage() {
 
 
 
-              <a
+              
 
-                href={blog.link || "#"}
+                href={blog.link}
 
                 style={{
 
