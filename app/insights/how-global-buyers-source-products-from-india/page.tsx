@@ -830,7 +830,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
             States, the Middle East and Latin America.
           </p>
           <a
-            href="#contact"
+            href="/"
             className="mavero-cta-btn"
             style={{
               display: "inline-block",
