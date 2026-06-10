@@ -52,6 +52,9 @@ export default function HowGlobalBuyersSourceFromIndia() {
         color: "#666666",
       }}
     >
+      {/* Server-safe hover style for CTA button */}
+      <style>{`.mavero-cta-btn:hover { background-color: #b8934a !important; }`}</style>
+
       {/* Hero Section */}
       <section
         style={{
@@ -134,7 +137,6 @@ export default function HowGlobalBuyersSourceFromIndia() {
               letterSpacing: "3px",
               color: "#c9a65b",
               textTransform: "uppercase",
-              marginBottom: "16px",
               margin: "0 0 16px",
             }}
           >
@@ -713,7 +715,6 @@ export default function HowGlobalBuyersSourceFromIndia() {
               letterSpacing: "3px",
               color: "#c9a65b",
               textTransform: "uppercase",
-              marginBottom: "16px",
               margin: "0 0 16px",
             }}
           >
@@ -830,6 +831,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
           </p>
           <a
             href="#contact"
+            className="mavero-cta-btn"
             style={{
               display: "inline-block",
               backgroundColor: "#c9a65b",
@@ -843,12 +845,6 @@ export default function HowGlobalBuyersSourceFromIndia() {
               padding: "16px 40px",
               borderRadius: "2px",
               transition: "background-color 0.2s ease",
-            }}
-            onMouseEnter={(e) => {
-              (e.currentTarget as HTMLAnchorElement).style.backgroundColor = "#b8934a";
-            }}
-            onMouseLeave={(e) => {
-              (e.currentTarget as HTMLAnchorElement).style.backgroundColor = "#c9a65b";
             }}
           >
             Contact Mavero Global
@@ -890,7 +886,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
                   },
                   {
                     "@type": "Thing",
-                    name: "Home Décor Sourcing",
+                    name: "Home Decor Sourcing",
                   },
                 ],
               },
