@@ -98,7 +98,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
               margin: "0 auto",
             }}
           >
-            India is one of the world's most diverse and capable manufacturing
+            India is one of the world&apos;s most diverse and capable manufacturing
             and craftsmanship hubs. Understanding how to source effectively —
             from supplier identification through to export coordination — is the
             foundation of a successful import strategy.
@@ -232,7 +232,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
               Diverse Manufacturing Capabilities
             </h3>
             <p style={{ fontSize: "16px", lineHeight: "1.85", margin: "0 0 18px" }}>
-              India's manufacturing base spans a wide spectrum — from
+              India&apos;s manufacturing base spans a wide spectrum — from
               large-scale industrial producers to small workshops producing
               handcrafted goods with generations of embedded craft knowledge.
               This breadth means buyers can source across categories including
@@ -253,7 +253,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
             </h3>
             <p style={{ fontSize: "16px", lineHeight: "1.85", margin: "0" }}>
               Beyond cost, buyers are drawn to India for the craftsmanship
-              quality achievable at accessible price points, the country's
+              quality achievable at accessible price points, the country&apos;s
               well-developed export infrastructure and the growing number of
               manufacturers experienced in meeting international compliance and
               quality standards.
@@ -281,7 +281,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
               programme, and it is where many buyers encounter their first
               significant challenges. India has a large and varied supplier
               landscape, and identifying manufacturers who genuinely align with
-              a buyer's quality, capacity and compliance requirements requires
+              a buyer&apos;s quality, capacity and compliance requirements requires
               systematic evaluation.
             </p>
             <h3
@@ -387,7 +387,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
               Buyers should be cautious of suppliers who discourage sampling
               iteration or who cannot demonstrate consistent replication between
               sample and bulk production. Inconsistency at the sampling stage is
-              a meaningful signal about a supplier's overall process discipline.
+              a meaningful signal about a supplier&apos;s overall process discipline.
             </p>
           </section>
 
@@ -667,7 +667,7 @@ export default function HowGlobalBuyersSourceFromIndia() {
               The Growing Opportunity in India
             </h2>
             <p style={{ fontSize: "16px", lineHeight: "1.85", margin: "0 0 18px" }}>
-              India's position in global trade is continuing to evolve.
+              India&apos;s position in global trade is continuing to evolve.
               Government initiatives to strengthen manufacturing infrastructure,
               streamline export processes and attract international investment
               are making India increasingly accessible to global buyers.
