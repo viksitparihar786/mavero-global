@@ -62,14 +62,14 @@ export default function Hero() {
     fontWeight: 400,
   }}
 >
-  We source and supply premium home, garden and lifestyle
+  We Source And Supply Premium Home, Garden and Lifestyle
   <br />
-  products from India. Handcrafted with care,
+  Products From India. Handcrafted With Care,
   <br />
-  Delivered worldwide.
+  Delivered Worldwide.
 </p>
         <a href="#products" className="hero-cta">
-          Explore Collection
+          Our Collection
         </a>
 
         {/* Icon grid */}
