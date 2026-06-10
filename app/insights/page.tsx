@@ -286,25 +286,17 @@ export default function InsightsPage() {
 
               
 
-                href={blog.link}
-
-                style={{
-
-                  color: "#b78d36",
-
-                  textDecoration: "none",
-
-                  fontWeight: "600",
-
-                  fontSize: "15px",
-
-                }}
-
-              >
-
-                Read More →
-
-              </a>
+                <a
+  href={blog.link}
+  style={{
+    color: "#b78d36",
+    textDecoration: "none",
+    fontWeight: "600",
+    fontSize: "15px",
+  }}
+>
+  Read More →
+</a>
 
             </div>
 
