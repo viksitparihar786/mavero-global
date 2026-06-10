@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 const SIMPLE_LINKS = [
   { label: 'About', id: 'about' },
   { label: 'Products', id: 'products' },
+  { label: 'Insights', id: 'insights' },
 ];
 
 const SERVICES_DROPDOWN = [
